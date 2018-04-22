@@ -9,6 +9,34 @@ body {
     font-family: 'Alegreya', sans-serif;
 }
 
+/*** GRID ***/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 325px;
+    float: left;
+}
+
+.quarter-width {
+    width: 250px;
+    float: left;
+}
+
+.two-third-width {
+    width: 800px;
+    float: left;
+}
+
 
 /*** HEADER ***/
 
@@ -21,12 +49,18 @@ header h1 {
     font-family: 'scriptina';
 }
 
+/*** LOGO ***/
+
+#header-logo {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 /*** NAV ***/
 
 nav {
-    float: right;
-    padding-top: 45px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 30px;
     background-image: url('../img/nav_bg.png');
 }
 
@@ -43,6 +77,19 @@ nav ul li {
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+    padding-left: 25px;
+}
+
+/*** SOCIAL MEDIA ***/
+
+#header-social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header-social-media ul li {
+    display: inline-block;
     padding-left: 25px;
 }
 
