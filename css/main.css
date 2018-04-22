@@ -1,0 +1,77 @@
+/*** EXTRA FONTS ***/
+@font-face {
+  font-family: 'scriptina';
+  src: url('fonts/SCRIPTIN.ttf');
+}
+
+/*** BASE ***/
+body {
+    font-family: 'Alegreya', sans-serif;
+}
+
+
+/*** HEADER ***/
+
+header h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'scriptina';
+}
+
+/*** NAV ***/
+
+nav {
+    float: right;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    background-image: url('../img/nav_bg.png');
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-left: 25px;
+}
+
+header h2 {
+    font-size: 48px;
+    font-family: 'Hind', sans-serif;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    color: white;
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+#header-title {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+#header-subtitle {
+    position: absolute;
+    top: 256px;
+    left: 0px;
+}
