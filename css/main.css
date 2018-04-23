@@ -198,7 +198,7 @@ nav ul li {
     margin-right: auto;
     width: 100%;
     object-fit: scale-down;
-    height: 110px;
+    height: 106px;
 }
 
 /*** CAKES ***/
@@ -206,11 +206,15 @@ nav ul li {
 #cakes {
     padding-top: 100px;
     width: 1260px;
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
+    background-image: url('../img/cakes-bg.png');
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
 #cakes-left {
-    width: 600px;
+    width: 630px;
 }
 
 #cakes-left h1 {
@@ -266,7 +270,7 @@ nav ul li {
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-color: #D7D5CA;
-    margin: 33px 10px;
+    margin: 22px 15px;
 }
 
 .cakes-subdiv h4 {
@@ -328,4 +332,18 @@ nav ul li {
     color: #A47D5E;
     padding: 0;
     margin: 0;
+}
+
+#cakes-right {
+    width: 610px;
+    padding: 0 10px;
+    height: 578px;
+}
+
+#cakes-right img {
+    width: 610px;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
