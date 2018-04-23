@@ -47,6 +47,16 @@ body {
     float: left;
 }
 
+.button {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgba(86, 83, 76, 0.53);
+    border: 1px;
+    border-style: dashed;
+    border-color: #FFFFFF;
+}
+
 
 /*** HEADER ***/
 
@@ -87,17 +97,22 @@ header p {
     font-size: 14px;
     font-weight: bold;
     line-height: 24px;
+    text-transform: uppercase;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
     text-align: center;
 }
 
+#header-upper {
+    background-image: url('../img/nav_bg.png');
+}
+
 /*** LOGO ***/
 
 #header-logo {
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     width: 140px;
 }
 
@@ -105,10 +120,10 @@ header p {
 
 nav {
     padding-top: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     padding-left: 100px;
     padding-right: 140px;
-    background-image: url('../img/nav_bg.png');
+
     width: 700px;
     float: left;
 }
@@ -134,7 +149,7 @@ nav ul li {
 #header-social-media {
     width: 120px;
     padding-top: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 23px;
 }
 
 #header-social-media ul {
@@ -146,4 +161,27 @@ nav ul li {
 #header-social-media ul li {
     display: inline-block;
     padding-right: 25px;
+}
+
+/*** TITLE ***/
+
+#header-title h2 {
+    padding-top: 185px;
+    padding-bottom: 50px;
+}
+
+#header-title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-title h3 {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+#header-menu-button {
+    margin-right: auto;
+    margin-left: auto;
 }
