@@ -4,6 +4,16 @@
   src: url('fonts/SCRIPTIN.ttf');
 }
 
+@font-face {
+  font-family: 'proximanova-regular';
+  src: url('fonts/proxima-nova-regular.ttf');
+}
+
+@font-face {
+  font-family: 'proximanova-thin';
+  src: url('fonts/proxima-nova-thin.ttf');
+}
+
 /*** BASE ***/
 body {
     font-family: 'Alegreya', sans-serif;
@@ -40,6 +50,11 @@ body {
 
 /*** HEADER ***/
 
+header {
+    height: 900px;
+    background-image: url('../img/hero-bg.png')
+}
+
 header h1 {
     font-size: 30px;
     line-height: 30px;
@@ -47,6 +62,35 @@ header h1 {
     padding: 0;
     color: #FFFFFF;
     font-family: 'scriptina';
+}
+
+header h2 {
+    font-size: 92px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: 'proximanova-thin', Georgia, serif;
+    text-align: center;
+}
+
+header p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 /*** LOGO ***/
@@ -102,34 +146,4 @@ nav ul li {
 #header-social-media ul li {
     display: inline-block;
     padding-right: 25px;
-}
-
-header h2 {
-    font-size: 48px;
-    font-family: 'Hind', sans-serif;
-    line-height: 48px;
-    text-align: center;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    position: relative;
-    color: white;
-    width: 1200px;
-    height: 550px;
-    margin: 0 auto;
-}
-
-#header-title {
-    position: absolute;
-    top: 100px;
-    left: 0px;
-}
-
-#header-subtitle {
-    position: absolute;
-    top: 256px;
-    left: 0px;
 }
