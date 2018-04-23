@@ -373,3 +373,17 @@ nav ul li {
     vertical-align: middle;
     height: 760px;
 }
+
+#pancakes-left {
+    width: 429px;
+    padding-left: 95px;
+}
+
+
+
+#pancakes-right {
+    width: 484px;
+    height: 512px;
+    padding-left: 60px;
+    background-color: #FFFFFF;
+}
