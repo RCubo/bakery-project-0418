@@ -379,7 +379,11 @@ nav ul li {
     padding-left: 95px;
 }
 
-
+#pancakes-rating-side {
+    position: relative;
+    top: -325px;
+    left: 30px;
+}
 
 #pancakes-right {
     width: 484px;
