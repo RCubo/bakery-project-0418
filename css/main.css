@@ -493,12 +493,11 @@ nav ul li {
 
 #breakfast {
     padding-top: 80px;
-    width: 1260px;
+    width: 1290px;
     background-image: url('../img/breakfast-bg.png');
     display: inline-block;
     vertical-align: middle;
     height: 680px;
-    position: relative;
 }
 
 #breakfast-left {
@@ -552,5 +551,40 @@ nav ul li {
 }
 
 #breakfast-right{
-    width: 550px;
+    width: 440px;
+    padding-left: 110px;
+}
+
+#breakfast-paper {
+    position: relative;
+}
+
+#breakfast-est {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+#breakfast-year {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+
+#breakfast-est p, #breakfast-year p {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #56534C;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+#breakfast-separator {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-49%, 0%)
 }
