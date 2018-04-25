@@ -17,6 +17,8 @@
 /*** BASE ***/
 body {
     font-family: 'Alegreya', sans-serif;
+    margin: auto;
+    max-width: 1260px;
 }
 
 /*** GRID ***/
@@ -68,6 +70,7 @@ body {
 header {
     height: 900px;
     background-image: url('../img/hero-bg.png');
+    width: 1260px;
 }
 
 header h1 {
@@ -194,7 +197,7 @@ nav ul li {
 
 #header-divider {
     padding-top: 160px;
-    width: 100%;
+    width: 1260px;
 }
 
 #header-divider img {
@@ -256,7 +259,6 @@ nav ul li {
     font-size: 14px;
     line-height: 24px;
     font-family: 'proximanova-regular', Georgia, serif;
-    width: 500px;
     text-align: center;
     color: #56534C;
     margin: 0;
@@ -493,11 +495,12 @@ nav ul li {
 
 #breakfast {
     padding-top: 80px;
-    width: 1290px;
+    width: 1260px;
     background-image: url('../img/breakfast-bg.png');
     display: inline-block;
     vertical-align: middle;
     height: 680px;
+    overflow-x: hidden;
 }
 
 #breakfast-left {
