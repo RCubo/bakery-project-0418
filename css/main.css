@@ -646,3 +646,9 @@ nav ul li {
     margin: 0;
     padding: 0;
 }
+
+#breakfast-right-wheat {
+    position: absolute;
+    top: 450px;
+    left: 260px;
+}
