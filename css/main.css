@@ -770,3 +770,27 @@ nav ul li {
     top: 467px;
     left: 751px;
 }
+
+#jibarito-recipe-button {
+    width: 168px;
+    height: 18px;
+    padding: 21px 0px;
+    position: absolute;
+    top: 600px;
+    left: 97px;
+    background-color: #FFFFFF;
+    border: 1px;
+    border-style: dashed;
+    border-color: #DFC691;
+    text-align: center;
+}
+
+#jibarito-recipe-button p {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #DFC691;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
