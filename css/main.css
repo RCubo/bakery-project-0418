@@ -550,7 +550,11 @@ nav ul li {
     line-height: 36px;
     color: #DFC691;
     margin: 0;
-    padding: 0px 0px 50px 0px;
+    padding: 0;
+}
+
+.breakfast-left-separator {
+    padding: 10px 0;
 }
 
 #breakfast-right{
@@ -585,7 +589,7 @@ nav ul li {
     padding: 0;
 }
 
-#breakfast-separator {
+#breakfast-right-separator {
     position: absolute;
     top: 70px;
     left: 50%;
