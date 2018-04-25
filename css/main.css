@@ -732,3 +732,41 @@ nav ul li {
     margin: 0;
     padding: 0px 0px 50px 0px;
 }
+
+#jibarito-right {
+    position: relative;
+    padding-top: 85px;
+    padding-left: 120px;
+    width: 839px;
+}
+
+#jibarito-prep {
+    position: absolute;
+    top: 65px;
+    left: 751px;
+}
+
+#jibarito-cook {
+    position: absolute;
+    top: 266px;
+    left: 751px;
+}
+
+#jibarito-prep h3, #jibarito-cook h3 {
+    font-size: 60px;
+    line-height: 60px;
+    color: #56534C;
+    padding: 0;
+    margin: 0;
+}
+
+#jibarito-prep, #jibarito-cook {
+    background-image: none;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#jibarito-ready {
+    position: absolute;
+    top: 467px;
+    left: 751px;
+}
