@@ -255,7 +255,7 @@ nav ul li {
 #cakes-left p {
     font-size: 14px;
     line-height: 24px;
-    font-family: 'proximanova-regular', Georgia, serif;'
+    font-family: 'proximanova-regular', Georgia, serif;
     width: 500px;
     text-align: center;
     color: #56534C;
@@ -534,7 +534,7 @@ nav ul li {
 }
 
 #breakfast-left p {
-    font-family: 'proximanova-regular', Georgia, serif;'
+    font-family: 'proximanova-regular', Georgia, serif;
     font-size: 16px;
     line-height: 30px;
     color: #C2BEBA;
@@ -586,5 +586,56 @@ nav ul li {
     position: absolute;
     top: 70px;
     left: 50%;
-    transform: translate(-49%, 0%)
+    transform: translate(-49%, 0%);
+}
+
+#breakfast-paper h1 {
+    position: absolute;
+    top: 205px;
+    width: 100%;
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #56534C;
+    margin: 0;
+    padding: 0;
+}
+
+#breakfast-description p {
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    font-family: 'proximanova-regular', Georgia, serif;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #56534C;
+    margin: 0;
+    padding: 0;
+}
+
+#breakfast-read-button {
+    width: 190px;
+    height: 18px;
+    padding: 16px 0px;
+    position: absolute;
+    top: 485px;
+    left: 50%;
+    transform: translate(-49%, 0%);
+    background-color:rgba(86, 83, 76, 0);
+    border: 1px;
+    border-style: solid;
+    border-color: #9E9C93;
+    text-align: center;
+}
+
+#breakfast-read-button p {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #A47D5E;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
