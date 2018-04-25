@@ -19,6 +19,7 @@ body {
     font-family: 'Alegreya', sans-serif;
     margin: auto;
     max-width: 1260px;
+    letter-spacing: .10em
 }
 
 /*** GRID ***/
@@ -76,6 +77,7 @@ header {
 header h1 {
     font-size: 30px;
     line-height: 30px;
+    letter-spacing: .30em;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -86,6 +88,7 @@ header h2 {
     font-size: 92px;
     margin: 0;
     padding: 0;
+    letter-spacing: 0.08em;
     color: #FFFFFF;
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -106,6 +109,7 @@ header p {
     font-weight: bold;
     line-height: 24px;
     text-transform: uppercase;
+    letter-spacing: 0.30em;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -130,10 +134,10 @@ header p {
 nav {
     padding-top: 25px;
     padding-bottom: 15px;
-    padding-left: 100px;
-    padding-right: 140px;
+    padding-left: 65px;
+    padding-right: 67px;
 
-    width: 700px;
+    width: 850px;
     float: left;
 }
 
@@ -149,6 +153,7 @@ nav ul li {
     text-decoration: none;
     font-size: 14px;
     line-height: 24px;
+    letter-spacing: 0.30em;
     color: #FFFFFF;
     padding-left: 35px;
 }
@@ -156,9 +161,10 @@ nav ul li {
 /*** SOCIAL MEDIA ***/
 
 #header-social-media {
-    width: 120px;
+    width: 138px;
     padding-top: 25px;
     padding-bottom: 23px;
+    float: right;
 }
 
 #header-social-media ul {
@@ -169,7 +175,7 @@ nav ul li {
 
 #header-social-media ul li {
     display: inline-block;
-    padding-right: 25px;
+    padding-left: 30px;
 }
 
 /*** TITLE ***/
@@ -229,6 +235,7 @@ nav ul li {
 #cakes-left h1 {
     font-size: 48px;
     font-weight: 700;
+    letter-spacing: 0.03em;
     text-align: center;
     color: #56534C;
     margin: 0;
@@ -239,6 +246,7 @@ nav ul li {
     font-size: 24px;
     line-height: 24px;
     font-weight: 700;
+    letter-spacing: 0.03em;
     text-align: center;
     color: #56534C;
     margin: 0;
@@ -284,6 +292,7 @@ nav ul li {
 .cakes-subdiv h4 {
     font-size: 24px;
     line-height: 58px;
+    letter-spacing: 0.03em;
     color: #56534C;
     text-align: center;
     padding: 0;
@@ -321,14 +330,15 @@ nav ul li {
 }
 
 #cakes-quote-middle {
-    width: 260px;
-    padding: 35px 60px;
+    width: 280px;
+    padding: 35px 40px;
 }
 
 #cakes-quote-left p, #cakes-quote-right p {
     font-family: "Times New Roman";
     font-size: 60px;
     line-height: 90px;
+    letter-spacing: 0;
     color: #D7D5CA;
 }
 
@@ -336,6 +346,7 @@ nav ul li {
     font-family: 'scriptina';
     font-size: 24px;
     line-height: 30px;
+    letter-spacing: 0.03em;
     text-align: center;
     color: #A47D5E;
     padding: 0;
@@ -362,6 +373,7 @@ nav ul li {
 #cakes-right p {
     font-size: 30px;
     line-height: 36px;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #C9B176;
     position: absolute;
@@ -512,6 +524,7 @@ nav ul li {
     font-size: 60px;
     line-height: 60px;
     font-weight: 700;
+    letter-spacing: 0.05em;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -521,6 +534,7 @@ nav ul li {
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #C8A593;
     padding: 0px 0px 60px 0px;
@@ -531,6 +545,7 @@ nav ul li {
     font-size: 30px;
     line-height: 30px;
     font-weight: 700;
+    letter-spacing: 0.05em;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -540,6 +555,7 @@ nav ul li {
     font-family: 'proximanova-regular', Georgia, serif;
     font-size: 16px;
     line-height: 30px;
+    letter-spacing: 0.05em;
     color: #C2BEBA;
     margin: 0;
     padding: 0px 0px 25px 0px;
@@ -548,6 +564,7 @@ nav ul li {
 #breakfast-left h3 {
     font-size: 36px;
     line-height: 36px;
+    letter-spacing: 0.05em;
     color: #DFC691;
     margin: 0;
     padding: 0;
@@ -616,6 +633,7 @@ nav ul li {
     font-family: 'proximanova-regular', Georgia, serif;
     font-size: 14px;
     line-height: 30px;
+    letter-spacing: 0.05em;
     text-align: center;
     color: #56534C;
     margin: 0;
@@ -625,6 +643,7 @@ nav ul li {
 #breakfast-read-button {
     width: 190px;
     height: 18px;
+    letter-spacing: 0.05em;
     padding: 16px 0px;
     position: absolute;
     top: 485px;
@@ -807,11 +826,12 @@ footer {
     border-style: solid;
     border-width: 1px 0px 1px 0px;
     border-color: #C2BEBA;
-    width: 505px;
+    width: 515px;
 }
 
 #footer-left ul, #footer-right ul {
     list-style-type: none;
+    width: 505px;
     margin: 0;
     padding: 0;
 }
@@ -822,8 +842,17 @@ footer {
     text-decoration: none;
     font-size: 14px;
     line-height: 14px;
+    letter-spacing: 0.30em;
     color: #56534C;
-    padding: 27px 40px 27px 0px;
+
+}
+
+#footer-left ul li {
+    padding: 27px 0px 27px 35px;
+}
+
+#footer-right ul li {
+    padding: 27px 0px 27px 35px;
 }
 
 #footer-center {
